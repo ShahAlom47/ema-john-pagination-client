@@ -1,0 +1,49 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* position: relative; */
+}
+
+.products-container {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+}
+.proceed-link{
+    text-decoration: none;
+}
+.btn-proceed {
+    background: #FF9900;
+    width: 90%;
+    height: 56px;
+    font-size: 21px;
+    margin: 10px auto;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pagination{
+    text-align: center;
+    font-size: medium;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.pagination .selacted{
+    background: rgb(45, 213, 45);
+    color: black;
+}
+.pagination button{
+    background: rgb(25, 153, 25);
+    color: white;
+}
+.hidden{
+    display: none;
+}
